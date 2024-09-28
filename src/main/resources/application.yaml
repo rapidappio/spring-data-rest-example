@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-data-rest-example
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: <url>
+    username: <user>
+    password: <password>
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
